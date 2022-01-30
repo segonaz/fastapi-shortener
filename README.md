@@ -38,7 +38,7 @@ UI не нужен, достаточно сделать JSON API сервис.
 #### Установка и запуск (docker-compose):
 - cd where-you-keep-your-projects
 ```shell 
-mkdir tm_project && cd uat_project
+mkdir uat_project && cd uat_project
 ```
 ```shell
 git init
@@ -58,5 +58,5 @@ docker exec -it shortener_server /bin/bash
 ```
 2. Запустить тесты:
 ```shell
-cd src && pytest test --cov=shortener --cov-report term    
+cd src && pytest test --cov=shortener --cov-report term
 ```
